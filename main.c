@@ -63,8 +63,8 @@ int main() {
         }
     }
 
-    average_finish_time = finish_time * 1.0 / proccesses;
-    average_response_time = response * 1.0 / proccesses;
+    	average_finish_time = finish_time * 1.0 / proccesses;
+    	average_response_time = response * 1.0 / proccesses;
 	average_wait_time = wait_time * 1.0 / proccesses;
 	printf("RR %.1f %.1f %.1f\n", average_finish_time+1, average_response_time, average_wait_time+1);
 	return 0;
