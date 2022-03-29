@@ -4,7 +4,7 @@
 
 # Description:
 Simulates a process schedule by using Round Robin.
-collects the processes data to show the performance.
+collects the processes data to show the process performance.
 <br>
 <br>
 
