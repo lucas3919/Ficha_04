@@ -1,21 +1,10 @@
-CC=g++
-FLAGS=-c -o
+COMPILER=gcc
 
-all: process roundrobin bin
-
-process: process.cpp
-	$(CC) $< $(FLAGS) $@
-
-roundrobin: roundrobin.cpp
-	$(CC) $< $(FLAGS) $@
-
-bin: main.cpp
-	$(CC) $< $(FLAGS) $@
-
+bin: main.c
+	$(COMPILER) -o $@
 .PHONY: run clean
 
 run:
 	./bin
-
 clean:
-	rm binary process roundrobin
+	rm bin
