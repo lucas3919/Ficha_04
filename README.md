@@ -9,16 +9,20 @@ collects the processes data to show the process performance.
 <br>
 
 # How it works:
-Insert the Process Quantity and the Quantum, respectively, then the operations will proceed and collect the average execution time, average wait time and average response time.
+Insert the Process Quantity and the Quantum, respectively. <br>
+Then insert the Start time and the Time needed to Finish the processes for each Process. <br>
+Aftert that the operations will proceed and collect the average execution time, average wait time and average response time.
 
-Ex:\
-```4 2```\
+Ex:
+```
+Proccess Quantity: 4       Quantum: 2
+```
 ```4 2
-0 20
-0 10
-4 6
-4 8```
-
+Start Time: 0  Time Needed to Finish: 20
+Start Time: 0  Time Needed to Finish: 10
+Start Time: 4  Time Needed to Finish: 6
+Start Time: 4  Time Needed to Finish: 8
+```
 <br>
 <br>
 
