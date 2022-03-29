@@ -10,6 +10,14 @@ collects the processes data to show the process performance.
 
 # How it works:
 Insert the Process Quantity and the Quantum, respectively, then the operations will proceed and collect the average execution time, average wait time and average response time.
+
+Ex:\
+```4 2```\
+```4 2
+0 20
+0 10
+4 6
+4 8```
 <br>
 <br>
 
