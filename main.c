@@ -32,7 +32,7 @@ int main() {
 			check_2 = 1;
 		}
         
-        else if (time[index] > 0) {
+        	else if (time[index] > 0) {
 			time[index] = time[index] - quantum_time;
 			finish_execution = finish_execution + quantum_time;
             
@@ -44,8 +44,8 @@ int main() {
 
 		if (check_2 == 1 && time[index] == 0) {
 			process--;
-            wait_time += finish_execution - main_process[index].duration_time - main_process[index].arrival_time;
-            finish_time += finish_execution - main_process[index].arrival_time;
+            		wait_time += finish_execution - main_process[index].duration_time - main_process[index].arrival_time;
+		  	finish_time += finish_execution - main_process[index].arrival_time;
 			check_2 = 0;
 		}
 
@@ -54,9 +54,9 @@ int main() {
 			check = 1;
 		}
 
-        else if (main_process[index+1].arrival_time <= finish_execution) {
+        	else if (main_process[index+1].arrival_time <= finish_execution) {
 			index++;
-        }
+        	}
 
 		else {
 			index = 0;
